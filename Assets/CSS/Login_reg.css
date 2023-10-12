@@ -1,0 +1,93 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+html{
+    overflow-y: scroll;
+}
+body{
+    background: burlywood;
+    font-family: fantasy;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    transition: ease-in;
+}
+.form{
+    background: darkorange;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+}
+.tabgroup{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: darkturquoise;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: 5s ease;
+}
+.tab-content > div:last-child{
+    display: none;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+label{
+    position: absolute;
+    transform: translate(6px);
+    left: 13px;
+    color: black;
+}
+input{
+    font-size: 22px;
+    display: block;
+    width: 100px;
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid gold;
+    color: #21d9bd;
+    transition: border-top-color 25s ease, box-shadow;
+}
+.field-wrap{
+    position: relative;
+    margin-bottom: 40px;
+}
+.top-row{
+
+}
+>div{
+    float: left;
+    width: 50%;
+}
+button{
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.button-block{
+    display: block;
+    width: 100%;
+}
+.forgot{
+    margin-top: 20px;
+    text-align: center;
+}
